@@ -1,0 +1,69 @@
+.button-start {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.div-timer {
+  margin-top: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 70px;
+}
+
+.date-timer {
+  margin-bottom: 32px;
+  width: 355px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+#datetime-picker {
+  padding: 0px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 240px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.date-timer > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
