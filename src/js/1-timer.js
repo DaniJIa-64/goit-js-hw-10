@@ -62,7 +62,7 @@ const options = {
   },
 };
 
-let flatpickrDate = new flatpickr('input[type="text"]', options);
+let flatpickrDate = new flatpickr('#datetime-picker', options);
 
 function convertMs(ms) {
   const second = 1000;

@@ -7,15 +7,15 @@ form.addEventListener('submit', submitForm);
 
 function submitForm(event) {
   event.preventDefault();
-  const delay = event.target.elements.delay.value;
+  const delay = Number(event.target.elements.delay.value);
   const promiseState = event.target.elements.state.value;
   form.reset();
   const prom = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (promiseState === 'fulfilled') {
-        resolve();
+        resolve(delay);
       } else {
-        reject();
+        reject(delay);
       }
     }, delay);
   });
